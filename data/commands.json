@@ -1,0 +1,358 @@
+{
+    "help": {
+        "name": "Help",
+        "clear_name": "help",
+        "usage": "allay help <command name: optional>",
+        "aliases": [],
+        "is_premium": false,
+        "permissions": [],
+        "description": "To show AllayBot's help command, or get the command's info.",
+        "version_added": "0.0.1 Alpha",
+        "group": "help",
+        "cooldowns": ""
+    },
+    "hello": {
+        "name": "Hello",
+        "clear_name": "hello",
+        "usage": "allay hello",
+        "aliases": [
+            "hi"
+        ],
+        "is_premium": false,
+        "permissions": [],
+        "description": "Well, it's just send a random greeting message..",
+        "version_added": "0.0.1 Alpha",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "ihate": {
+        "name": "IHate",
+        "clear_name": "ihate",
+        "usage": "allay ihate <*who: text>",
+        "aliases": [
+            "IHATE"
+        ],
+        "is_premium": false,
+        "permissions": [],
+        "description": "Idk what should i write.",
+        "version_added": "0.0.1 Alpha",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "send": {
+        "name": "Send",
+        "clear_name": "send",
+        "usage": "allay send <*message>",
+        "aliases": [
+            "repeat"
+        ],
+        "is_premium": false,
+        "permissions": [],
+        "description": "AllayBot will repeat or send the message.",
+        "version_added": "0.0.1 Alpha",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "spam": {
+        "name": "Spam",
+        "clear_name": "spam",
+        "usage": "allay spam <amount: number, *text: text>",
+        "aliases": [],
+        "is_premium": false,
+        "permissions": [],
+        "description": "Dangerous Command: To spam sending a message for a specific amount, need `ServerBrokener` role.",
+        "version_added": "0.0.1 Alpha",
+        "group": "fun",
+        "cooldowns": "100 Seconds"
+    },
+    "meme": {
+        "name": "Meme",
+        "clear_name": "meme",
+        "usage": "allay meme",
+        "aliases": [],
+        "is_premium": false,
+        "permissions": [],
+        "description": "Get a random meme from reddit or some-random-api and send it.",
+        "version_added": "0.0.5 Alpha",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "ratethisbot": {
+        "name": "RateThisBot",
+        "clear_name": "ratethisbot",
+        "usage": "allay ratethisbot <rate: number>",
+        "aliases": [],
+        "is_premium": false,
+        "permissions": [],
+        "description": "What do you think about this bot?",
+        "version_added": "0.0.1 Alpha",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "rockpaperscissors": {
+        "name": "RockPaperScissors",
+        "clear_name": "rockpaperscissors",
+        "usage": "allay rockpaperscissors",
+        "aliases": [
+            "rps"
+        ],
+        "is_premium": false,
+        "permissions": [],
+        "description": "To play rock paper scissors with the bot.",
+        "version_added": "0.0.5 Alpha",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "texttoemoji": {
+        "name": "TextToEmoji",
+        "clear_name": "texttoemoji",
+        "usage": "allay texttoemoji <*text: text>",
+        "aliases": [
+            "emojify",
+            "tte"
+        ],
+        "is_premium": false,
+        "permissions": [],
+        "description": "To change your text to emojis",
+        "version_added": "0.0.5 Alpha",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "tell": {
+        "name": "Tell",
+        "clear_name": "tell",
+        "usage": "allay tell <user: guild member> <invisible: choice[normal, invisible]>",
+        "aliases": [
+            "dm"
+        ],
+        "is_premium": false,
+        "permissions": [],
+        "description": "To dm a user.",
+        "version_added": "0.1.0 Beta",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "randomnumber": {
+        "name": "RandomNumber",
+        "clear_name": "randomnumber",
+        "usage": "allay randomnumber <from: number, default 0> <to: number, default 100>",
+        "aliases": [
+            "randnum"
+        ],
+        "is_premium": false,
+        "permissions": [],
+        "description": "To send a random number.",
+        "version_added": "0.1.0 Beta",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "screenshot": {
+        "name": "Screenshot",
+        "clear_name": "screenshot",
+        "usage": "allay screenshot <url: default https://google.com> <fullpage: choice[true, false], default false> <width: number, default 1920> <height: number, default 1080>",
+        "aliases": [
+            "ss"
+        ],
+        "is_premium": false,
+        "permissions": [],
+        "description": "To screenshot a website.",
+        "version_added": "0.1.0 Alpha",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "eightball": {
+        "name": "EightBall",
+        "clear_name": "eightball",
+        "usage": "allay eightball <*question>",
+        "aliases": [
+            "8ball",
+            "ask"
+        ],
+        "is_premium": false,
+        "permissions": [],
+        "description": "AllayBot will answer your yes or no question",
+        "version_added": "0.1.0 Beta",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "gaymeter": {
+        "name": "GayMeter",
+        "clear_name": "gaymeter",
+        "usage": "allay gaymeter <*someone: text>",
+        "aliases": [],
+        "is_premium": false,
+        "permissions": [],
+        "description": "How gay are him? :thinking:",
+        "version_added": "0.5.0 Beta",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "smartmeter": {
+        "name": "SmartMeter",
+        "clear_name": "smartmeter",
+        "usage": "allay smartmeter <*someone: text>",
+        "aliases": [],
+        "is_premium": false,
+        "permissions": [],
+        "description": "How smart are him or her? :thinking:",
+        "version_added": "0.5.0 Beta",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "shortmeter": {
+        "name": "ShortMeter",
+        "clear_name": "shortmeter",
+        "usage": "allay shortmeter <*someone: text>",
+        "aliases": [],
+        "is_premium": false,
+        "permissions": [],
+        "description": "How short are him or her? :thinking:",
+        "version_added": "0.5.0 Beta",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "nitrogenerator": {
+        "name": "NitroGenerator",
+        "clear_name": "nitrogenerator",
+        "usage": "allay nitrogenerator <repeat: number, default 1, cannot larger than 5>",
+        "aliases": [
+            "ng"
+        ],
+        "is_premium": false,
+        "permissions": [],
+        "description": "You want nitro? Here is it!",
+        "version_added": "0.4.3 Beta",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "akinator": {
+        "name": "Akinator",
+        "clear_name": "akinator",
+        "usage": "allay akinator <language: default en, look allay akinator list> <child mode: choice[true, false]>",
+        "aliases": [
+            "aki"
+        ],
+        "is_premium": false,
+        "permissions": [],
+        "description": "Akinator? In AllayBot? :scream:",
+        "version_added": "0.4.3 Beta",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "asciiart": {
+        "name": "AsciiArt",
+        "clear_name": "asciiart",
+        "usage": "allay asciiart <*text: text>",
+        "aliases": [],
+        "is_premium": false,
+        "permissions": [],
+        "description": "Idk what should i write, but it will return the ascii of the text.",
+        "version_added": "0.4.3 Beta",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "joke": {
+        "name": "Joke",
+        "clear_name": "joke",
+        "usage": "allay joke",
+        "aliases": [],
+        "is_premium": false,
+        "permissions": [],
+        "description": "jok jok apa yang lucu, joke :joy: | To send a joke",
+        "version_added": "0.4.5 Beta",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "chatbot": {
+        "name": "ChatBot",
+        "clear_name": "chatbot",
+        "usage": "allay chatbot <*message: text>",
+        "aliases": [
+            "cb"
+        ],
+        "is_premium": false,
+        "permissions": [],
+        "description": "ChatBot",
+        "version_added": "0.4.5 Beta",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "custommeter": {
+        "name": "CustomMeter",
+        "clear_name": "custommeter",
+        "usage": "allay custommeter <user: text> <*meter>",
+        "aliases": [],
+        "is_premium": false,
+        "permissions": [],
+        "description": "Same like gaymeter, smartmeter, and custommeter. But it's can be customize.",
+        "version_added": "0.4.0",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "react": {
+        "name": "React",
+        "clear_name": "react",
+        "usage": "allay react <channel: textchannel> <message id: number> <*text>",
+        "aliases": [],
+        "is_premium": false,
+        "permissions": [],
+        "description": "It will react the message in the channel, with the text.",
+        "version_added": "Biggest Update 1.0.0 Release",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "tictactoe": {
+        "name": "TicTacToe",
+        "clear_name": "tictactoe",
+        "usage": "allay tictactoe <user: user mention>",
+        "aliases": [
+            "ttt"
+        ],
+        "is_premium": false,
+        "permissions": [],
+        "description": "To play tictactoe with a member. (button)",
+        "version_added": "0.0.5 Alpha (no button), 1.0.0 Release (button)",
+        "group": "fun",
+        "cooldowns": ""
+    },
+    "avatar": {
+        "name": "Avatar",
+        "clear_name": "avatar",
+        "usage": "allay avatar <user: optional, guild member>",
+        "aliases": [
+            "av"
+        ],
+        "is_premium": false,
+        "permissions": [],
+        "description": "To get your, or user avatar",
+        "version_added": "0.0.1 Alpha",
+        "group": "utils",
+        "cooldowns": ""
+    },
+    "createembed": {
+        "name": "CreateEmbed",
+        "clear_name": "createembed",
+        "usage": "allay createembed <channel: textchannel, optional>",
+        "aliases": [
+            "ce"
+        ],
+        "is_premium": false,
+        "permissions": [],
+        "description": "To create an embed, using your choice",
+        "version_added": "0.3.0 Beta",
+        "group": "utils",
+        "cooldowns": ""
+    },
+    "poll": {
+        "name": "Poll",
+        "clear_name": "poll",
+        "usage": "allay poll <*question>",
+        "aliases": [],
+        "is_premium": false,
+        "permissions": [],
+        "description": "To start a poll",
+        "version_added": "0.1.0 Beta",
+        "group": "utils",
+        "cooldowns": ""
+    }
+}

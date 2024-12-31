@@ -1,0 +1,39 @@
+{
+    "tasks": [
+        {
+            "name": "Change cooldown system",
+            "description": "Change cooldown to more easier {\"cooldowns\": []}",
+            "done": false
+        },
+        {
+            "name": "Add check_many_item([]) function",
+            "description": "there will a list, for every check item value, it will append the list with true or false, it have or no. It will return a text of the item that false with the id of the paramete. func(list) {for item in list: [].append _checkitem(list) for value in []: if value is false: listItemNone.append(list[id])}",
+            "done": false
+        },
+        {
+            "name": "Change eat system",
+            "description": "change eat system that more configurable",
+            "done": false
+        },
+        {
+            "name": "Add pagination to inv command",
+            "description": "yes",
+            "done": false
+        },
+        {
+            "name": "Change recipe and crafting system",
+            "description": "yes",
+            "done": false
+        },
+        {
+            "name": "Update gacha system",
+            "description": "To more easier and add weight to choice() func",
+            "done": false
+        },
+        {
+            "name": "Move some owner command to owner group",
+            "description": "yes",
+            "done": false
+        }
+    ]
+}
