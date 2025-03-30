@@ -2,7 +2,7 @@
     "computer": {
         "name": "computer",
         "title": "Computer",
-        "description": "To post video to AllayHub and earn money from the ads",
+        "description": "To post video to FaldaHub and earn money from the ads",
         "rarity": "Common",
         "chance": "95%",
         "emoji": "0",
@@ -14,7 +14,7 @@
     "handphone": {
         "name": "handphone",
         "title": "Handphone",
-        "description": "To post image to AllayGram and get money from the endorsement",
+        "description": "To post image to FaldaGram and get money from the endorsement",
         "rarity": "Common",
         "chance": "95%",
         "emoji": "0",

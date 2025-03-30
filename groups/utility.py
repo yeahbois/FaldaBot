@@ -386,7 +386,7 @@ class Utility(commands.Cog):
         embed.add_field(name = "Author:", value = ctx.author.mention)
         embed.add_field(name = "Reason:", value = reason)
         embed.add_field(name = "Time:", value = "{} / {} second".format(time, second))
-        embed.set_footer(text = "AllayBot Timer")
+        embed.set_footer(text = "FaldaBot Timer")
         await ctx.send(embed=embed)
 
         await ctx.author.send("{}!".format(reason))

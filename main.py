@@ -26,8 +26,8 @@ dotenv.load_dotenv()
 
 @client.event
 async def on_ready():
-    print("AllayBot is ready!")
-    print("AllayBot Version: " + _version)
+    print("FaldaBot is ready!")
+    print("FaldaBot Version: " + _version)
 
 @client.event
 async def on_message(message):
@@ -35,8 +35,8 @@ async def on_message(message):
         if message.author.bot:
             return
         else:
-            embed = discord.Embed(title = "Hello! 👋", description = "Im AllayBot! A cool multipurpose discord bot. You can use `allay help` to see all my command", colour = discord.Colour.blue())
-            embed.set_footer(text=f"AllayBot {_version} | Requested by {message.author.name}", icon_url=message.author.avatar.url)
+            embed = discord.Embed(title = "Hello! 👋", description = "Im FaldaBot! A cool multipurpose discord bot. You can use `allay help` to see all my command", colour = discord.Colour.blue())
+            embed.set_footer(text=f"FaldaBot {_version} | Requested by {message.author.name}", icon_url=message.author.avatar.url)
             await message.reply(embed=embed)
     await client.process_commands(message)
 

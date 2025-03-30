@@ -52,7 +52,7 @@ def Money(uid:int, wallet:int, bank:int, max_bank:int, energy:int, life:int, inv
         "ext": extra
     }
 
-def Profile(uid:int, bio, badge:list, dimension, clan, allayhubName, allayhubSubs:int, allaygramName, allaygramSubs:int, swordEnch:int, axeEnch:int, pickaxeEnch:int, fishrodEnch:int, crypto:list):
+def Profile(uid:int, bio, badge:list, dimension, clan, faldahubName, faldahubSubs:int, faldagramName, faldagramSubs:int, swordEnch:int, axeEnch:int, pickaxeEnch:int, fishrodEnch:int, crypto:list):
     return {
         "uid": uid,
         "bio": bio,
@@ -60,12 +60,12 @@ def Profile(uid:int, bio, badge:list, dimension, clan, allayhubName, allayhubSub
         "dim": dimension,
         "cl": clan,
         "ah": {
-            "nm": allayhubName,
-            "sbs": allayhubSubs
+            "nm": faldahubName,
+            "sbs": faldahubSubs
         },
         "ag": {
-            "nm": allaygramName,
-            "fls": allaygramSubs
+            "nm": faldagramName,
+            "fls": faldagramSubs
         },
         "ench": {
             "swd": swordEnch,

@@ -219,7 +219,7 @@ class Fun(commands.Cog):
         elif rate > 8:
             return await ctx.send("Thank youuu!!!")
         elif rate < 5:
-            return await ctx.send(":(, if you have any bug or suggestion use `allay bot [ suggest | report ]` command!")
+            return await ctx.send(":(, if you have any bug or suggestion use `falda bot [ suggest | report ]` command!")
         
         await ctx.send("Thank you for rate!")
 
@@ -357,7 +357,7 @@ Fullpage: {fullpage} (true / false)
 Width: {width}
 Height: {height}
 **Syntax**
-`allay screenshot <url> <fullpage[true / false] OPTIONAL> <width OPTIONAL> <height OPTIONAL>`
+`falda screenshot <url> <fullpage[true / false] OPTIONAL> <width OPTIONAL> <height OPTIONAL>`
             ''', colour=discord.Colour.blue())
         embed.set_image(url=js['url'])
         await ctx.send(embed=embed)
@@ -497,11 +497,11 @@ Height: {height}
             aki.win()
             embede = discord.Embed(title=f"It is **{aki.first_guess['name']}**", description = aki.first_guess['description'], colour=discord.Colour.blue())
             embede.set_image(url=aki.first_guess['absolute_picture_path'])
-            embede.set_footer(text="AllayBot Akinator")
+            embede.set_footer(text="FaldaBot Akinator")
             await ctx.send(embed=embede)
 
         except ak.InvalidLanguageError:
-            await ctx.send(f"Invalid language use `allay akinator list` for language list!")
+            await ctx.send(f"Invalid language use `falda akinator list` for language list!")
 
     @commands.command()
     async def asciiart(self, ctx, *, text):
@@ -540,7 +540,7 @@ Height: {height}
             await channel.send(f"Full JSON: {js}")
             await msg.add_reaction("⬆️")
             await msg.add_reaction("⬇️")
-            await ctx.send("An error occured! The error has been sended to AllayBot developer to be fixed")
+            await ctx.send("An error occured! The error has been sended to FaldaBot developer to be fixed")
 
     @commands.command()
     async def custommeter(self, ctx, user = None, *, meter):

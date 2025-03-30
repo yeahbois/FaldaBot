@@ -1,5 +1,5 @@
 '''
-AllayBot Economy Module
+FaldaBot Economy Module
 '''
 
 # Imports
@@ -42,7 +42,7 @@ def _create_account(user: discord.Member):
 
 	insert_profile = template.Profile(
 		user.id,
-		"I love AllayBot",
+		"I love FaldaBot",
 		[{'tp': 'active', 'val': 'Wooden'}, {'tp': 'inv', 'val': []}],
 		"world",
 		"No Clan",
@@ -314,13 +314,13 @@ def _init(user: discord.Member = None):
 	"""
 	get_data = _check_account(user)
 	if get_data == False:
-		raise errors.AccountNotFound("Account not found! The account mean the user that you mention or you. Use `allay start` to create an account")
+		raise errors.AccountNotFound("Account not found! The account mean the user that you mention or you. Use `falda start` to create an account")
 
 	resdb = dbhelper.col_users
 	res = resdb.find_one({'uid': user.id})
 	if not res['bl'] == 0:
 		if res['bl'] == "perma":
-			raise errors.TheAccountIsBlacklisted("You are permanent blacklist from AllayBot with reason: {}".format(res['blr']))
+			raise errors.TheAccountIsBlacklisted("You are permanent blacklist from FaldaBot with reason: {}".format(res['blr']))
 		else:
 			if res['bl'] > time.time():
 				rem = res['bl'] - time.time()
@@ -329,7 +329,7 @@ def _init(user: discord.Member = None):
 				det = det.replace(".", ":")
 				newdt = det.split(":")
 				for_time =  f"{newdt[0]} hours, {newdt[1]} minutes, and {newdt[2]} seconds"
-				raise errors.TheAccountIsBlacklisted(f"You are blacklisted from AllayBot for {for_time} with reason {res['blr']}")
+				raise errors.TheAccountIsBlacklisted(f"You are blacklisted from FaldaBot for {for_time} with reason {res['blr']}")
 			else:
 				dbhelper.col_users.update_one({'uid': user.id}, {'$set': {'bl': 0}})
 
@@ -405,8 +405,8 @@ class Economy(commands.Cog):
 			user_dimension = "Nether"
 		elif res['dim'] == "end":
 			user_dimension = "End"
-		elif res['dim'] == "allayland":
-			user_dimension = "AllayLand"
+		elif res['dim'] == "faldaland":
+			user_dimension = "FaldaLand"
 		else:
 			user_dimension = "World"
 
@@ -428,11 +428,11 @@ Clan: {user_clan}
 			''')
 		acBadge = next((badge for badge in res['bdg'] if badge['tp'] == "active"), "Wooden")
 		embed.add_field(name = "Active Badge:", value = acBadge['val'])
-		embed.add_field(name = "AllayHub:", value = f'''
+		embed.add_field(name = "FaldaHub:", value = f'''
 Name: {res["ah"]["nm"]}
 Subscriber: {_cnum(res["ah"]["sbs"])}
 			''')
-		embed.add_field(name = "AllayGram:", value = f'''
+		embed.add_field(name = "FaldaGram:", value = f'''
 Name: {res["ag"]["nm"]}
 Follower: {_cnum(res["ag"]["fls"])}
 			''')

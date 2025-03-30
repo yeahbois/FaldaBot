@@ -2,11 +2,11 @@
     "help": {
         "name": "Help",
         "clear_name": "help",
-        "usage": "allay help <command name: optional>",
+        "usage": "falda help <command name: optional>",
         "aliases": [],
         "is_premium": false,
         "permissions": [],
-        "description": "To show AllayBot's help command, or get the command's info.",
+        "description": "To show FaldaBot's help command, or get the command's info.",
         "version_added": "0.0.1 Alpha",
         "group": "help",
         "cooldowns": ""
@@ -14,7 +14,7 @@
     "hello": {
         "name": "Hello",
         "clear_name": "hello",
-        "usage": "allay hello",
+        "usage": "falda hello",
         "aliases": [
             "hi"
         ],
@@ -28,7 +28,7 @@
     "ihate": {
         "name": "IHate",
         "clear_name": "ihate",
-        "usage": "allay ihate <*who: text>",
+        "usage": "falda ihate <*who: text>",
         "aliases": [
             "IHATE"
         ],
@@ -42,13 +42,13 @@
     "send": {
         "name": "Send",
         "clear_name": "send",
-        "usage": "allay send <*message>",
+        "usage": "falda send <*message>",
         "aliases": [
             "repeat"
         ],
         "is_premium": false,
         "permissions": [],
-        "description": "AllayBot will repeat or send the message.",
+        "description": "FaldaBot will repeat or send the message.",
         "version_added": "0.0.1 Alpha",
         "group": "fun",
         "cooldowns": ""
@@ -56,7 +56,7 @@
     "spam": {
         "name": "Spam",
         "clear_name": "spam",
-        "usage": "allay spam <amount: number, *text: text>",
+        "usage": "falda spam <amount: number, *text: text>",
         "aliases": [],
         "is_premium": false,
         "permissions": [],
@@ -68,7 +68,7 @@
     "meme": {
         "name": "Meme",
         "clear_name": "meme",
-        "usage": "allay meme",
+        "usage": "falda meme",
         "aliases": [],
         "is_premium": false,
         "permissions": [],
@@ -80,7 +80,7 @@
     "ratethisbot": {
         "name": "RateThisBot",
         "clear_name": "ratethisbot",
-        "usage": "allay ratethisbot <rate: number>",
+        "usage": "falda ratethisbot <rate: number>",
         "aliases": [],
         "is_premium": false,
         "permissions": [],
@@ -92,7 +92,7 @@
     "rockpaperscissors": {
         "name": "RockPaperScissors",
         "clear_name": "rockpaperscissors",
-        "usage": "allay rockpaperscissors",
+        "usage": "falda rockpaperscissors",
         "aliases": [
             "rps"
         ],
@@ -106,7 +106,7 @@
     "texttoemoji": {
         "name": "TextToEmoji",
         "clear_name": "texttoemoji",
-        "usage": "allay texttoemoji <*text: text>",
+        "usage": "falda texttoemoji <*text: text>",
         "aliases": [
             "emojify",
             "tte"
@@ -121,7 +121,7 @@
     "tell": {
         "name": "Tell",
         "clear_name": "tell",
-        "usage": "allay tell <user: guild member> <invisible: choice[normal, invisible]>",
+        "usage": "falda tell <user: guild member> <invisible: choice[normal, invisible]>",
         "aliases": [
             "dm"
         ],
@@ -135,7 +135,7 @@
     "randomnumber": {
         "name": "RandomNumber",
         "clear_name": "randomnumber",
-        "usage": "allay randomnumber <from: number, default 0> <to: number, default 100>",
+        "usage": "falda randomnumber <from: number, default 0> <to: number, default 100>",
         "aliases": [
             "randnum"
         ],
@@ -149,7 +149,7 @@
     "screenshot": {
         "name": "Screenshot",
         "clear_name": "screenshot",
-        "usage": "allay screenshot <url: default https://google.com> <fullpage: choice[true, false], default false> <width: number, default 1920> <height: number, default 1080>",
+        "usage": "falda screenshot <url: default https://google.com> <fullpage: choice[true, false], default false> <width: number, default 1920> <height: number, default 1080>",
         "aliases": [
             "ss"
         ],
@@ -163,14 +163,14 @@
     "eightball": {
         "name": "EightBall",
         "clear_name": "eightball",
-        "usage": "allay eightball <*question>",
+        "usage": "falda eightball <*question>",
         "aliases": [
             "8ball",
             "ask"
         ],
         "is_premium": false,
         "permissions": [],
-        "description": "AllayBot will answer your yes or no question",
+        "description": "FaldaBot will answer your yes or no question",
         "version_added": "0.1.0 Beta",
         "group": "fun",
         "cooldowns": ""
@@ -178,7 +178,7 @@
     "gaymeter": {
         "name": "GayMeter",
         "clear_name": "gaymeter",
-        "usage": "allay gaymeter <*someone: text>",
+        "usage": "falda gaymeter <*someone: text>",
         "aliases": [],
         "is_premium": false,
         "permissions": [],
@@ -190,7 +190,7 @@
     "smartmeter": {
         "name": "SmartMeter",
         "clear_name": "smartmeter",
-        "usage": "allay smartmeter <*someone: text>",
+        "usage": "falda smartmeter <*someone: text>",
         "aliases": [],
         "is_premium": false,
         "permissions": [],
@@ -202,7 +202,7 @@
     "shortmeter": {
         "name": "ShortMeter",
         "clear_name": "shortmeter",
-        "usage": "allay shortmeter <*someone: text>",
+        "usage": "falda shortmeter <*someone: text>",
         "aliases": [],
         "is_premium": false,
         "permissions": [],
@@ -214,7 +214,7 @@
     "nitrogenerator": {
         "name": "NitroGenerator",
         "clear_name": "nitrogenerator",
-        "usage": "allay nitrogenerator <repeat: number, default 1, cannot larger than 5>",
+        "usage": "falda nitrogenerator <repeat: number, default 1, cannot larger than 5>",
         "aliases": [
             "ng"
         ],
@@ -228,13 +228,13 @@
     "akinator": {
         "name": "Akinator",
         "clear_name": "akinator",
-        "usage": "allay akinator <language: default en, look allay akinator list> <child mode: choice[true, false]>",
+        "usage": "falda akinator <language: default en, look falda akinator list> <child mode: choice[true, false]>",
         "aliases": [
             "aki"
         ],
         "is_premium": false,
         "permissions": [],
-        "description": "Akinator? In AllayBot? :scream:",
+        "description": "Akinator? In FaldaBot? :scream:",
         "version_added": "0.4.3 Beta",
         "group": "fun",
         "cooldowns": ""
@@ -242,7 +242,7 @@
     "asciiart": {
         "name": "AsciiArt",
         "clear_name": "asciiart",
-        "usage": "allay asciiart <*text: text>",
+        "usage": "falda asciiart <*text: text>",
         "aliases": [],
         "is_premium": false,
         "permissions": [],
@@ -254,7 +254,7 @@
     "joke": {
         "name": "Joke",
         "clear_name": "joke",
-        "usage": "allay joke",
+        "usage": "falda joke",
         "aliases": [],
         "is_premium": false,
         "permissions": [],
@@ -266,7 +266,7 @@
     "chatbot": {
         "name": "ChatBot",
         "clear_name": "chatbot",
-        "usage": "allay chatbot <*message: text>",
+        "usage": "falda chatbot <*message: text>",
         "aliases": [
             "cb"
         ],
@@ -280,7 +280,7 @@
     "custommeter": {
         "name": "CustomMeter",
         "clear_name": "custommeter",
-        "usage": "allay custommeter <user: text> <*meter>",
+        "usage": "falda custommeter <user: text> <*meter>",
         "aliases": [],
         "is_premium": false,
         "permissions": [],
@@ -292,7 +292,7 @@
     "react": {
         "name": "React",
         "clear_name": "react",
-        "usage": "allay react <channel: textchannel> <message id: number> <*text>",
+        "usage": "falda react <channel: textchannel> <message id: number> <*text>",
         "aliases": [],
         "is_premium": false,
         "permissions": [],
@@ -304,7 +304,7 @@
     "tictactoe": {
         "name": "TicTacToe",
         "clear_name": "tictactoe",
-        "usage": "allay tictactoe <user: user mention>",
+        "usage": "falda tictactoe <user: user mention>",
         "aliases": [
             "ttt"
         ],
@@ -318,7 +318,7 @@
     "avatar": {
         "name": "Avatar",
         "clear_name": "avatar",
-        "usage": "allay avatar <user: optional, guild member>",
+        "usage": "falda avatar <user: optional, guild member>",
         "aliases": [
             "av"
         ],
@@ -332,7 +332,7 @@
     "createembed": {
         "name": "CreateEmbed",
         "clear_name": "createembed",
-        "usage": "allay createembed <channel: textchannel, optional>",
+        "usage": "falda createembed <channel: textchannel, optional>",
         "aliases": [
             "ce"
         ],
@@ -346,7 +346,7 @@
     "poll": {
         "name": "Poll",
         "clear_name": "poll",
-        "usage": "allay poll <*question>",
+        "usage": "falda poll <*question>",
         "aliases": [],
         "is_premium": false,
         "permissions": [],
